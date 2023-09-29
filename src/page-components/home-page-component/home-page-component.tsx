@@ -7,9 +7,7 @@ const HomePageComponent = () => {
 
 	return (
 		<div className='flex flex-col gap-3'>
-			{posts.map(item => (
-				<PostItem post={item} key={item.id} />
-			))}
+			{posts.map(item => <PostItem post={item} key={item.id} />).reverse()}
 		</div>
 	)
 }
