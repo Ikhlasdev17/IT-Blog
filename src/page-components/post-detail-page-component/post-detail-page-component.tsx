@@ -38,7 +38,7 @@ const PostDetailPageComponent: FC<Props> = ({ post }) => {
 				<h1 className='text-center mt-[50px] text-2xl font-medium'>
 					{post.author.fullName}
 				</h1>
-				<p className='mt-2 text-center italic'>"{post.author.bio}"</p>
+				<p className='mt-2 text-center italic'>{post.author.bio}</p>
 			</div>
 		</div>
 	)

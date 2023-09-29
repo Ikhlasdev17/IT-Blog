@@ -9,6 +9,7 @@ const Sidebar = () => {
 		<div>
 			{authors.map((item, index) => (
 				<div
+					key={index}
 					className={`flex gap-3  py-3 ${
 						index !== authors.length - 1 &&
 						'border-b-[1px] dark:border-b-gray-700 border-b-gray-200'
